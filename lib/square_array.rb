@@ -1,10 +1,10 @@
 def square_array(array)
-  counter = 0
+  count = 0
+  square = 0
   
-  while counter < array.length do
-    puts array(counter**)
+  while count < array.length do
+    square << (array[count] ** 2)
     counter += 1
   end
+  square
 end
-
-#** exponent
